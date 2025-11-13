@@ -62,7 +62,7 @@ def initialize_clients():
         base_url="http://localhost:8000/v1"
     )
 
-    os.environ["NVIDIA_API_KEY"] = "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"
+    os.environ["NVIDIA_API_KEY"] = "put your Nvidia API key"
 
     llm = ChatNVIDIA(
         model=LLM_MODEL,
@@ -255,3 +255,4 @@ if __name__ == "__main__":
     import uvicorn
 
     uvicorn.run(app, host="0.0.0.0", port=8080)
+
