@@ -17,11 +17,6 @@ Production-ready document intelligence system combining Nanonets OCR with NVIDIA
 - NVIDIA API Key ([Get one here](https://build.nvidia.com/))
 - vLLM server running with Nanonets OCR2-3B model (on `http://localhost:8000`)
 
-## Installation
-
-1. **Clone the repository**
-git clone <your-repo-url>
-cd ocr-rag-system
 
 ## Quick Start Commands
 ```
