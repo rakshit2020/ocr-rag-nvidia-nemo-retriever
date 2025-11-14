@@ -25,14 +25,14 @@ cd ocr-rag-system
 
 ## Quick Start Commands
 
-# Install everything
+### Install everything
 pip install -r requirements.txt
 
-# Terminal 1: Start vLLM
+### Terminal 1: Start vLLM
 vllm serve nanonets/Nanonets-OCR2-3B --port 8000
 
-# Terminal 2: Start FastAPI
+### Terminal 2: Start FastAPI
 uvicorn FastAPI_OCR+RAG:app --host 0.0.0.0 --port 8080
 
-# Terminal 3: Start Streamlit
+### Terminal 3: Start Streamlit
 streamlit run streamlit_app.py
