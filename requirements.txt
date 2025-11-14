@@ -1,0 +1,27 @@
+# FastAPI and server
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.17
+
+# Streamlit frontend
+streamlit==1.40.0
+
+# LangChain and NVIDIA
+langchain==0.3.7
+langchain-nvidia-ai-endpoints==0.3.5
+langchain-community==0.3.5
+
+# OpenAI client (for vLLM)
+openai==1.54.3
+
+# Vector database
+faiss-cpu==1.9.0
+
+# Image processing
+Pillow==11.0.0
+
+# HTTP requests
+requests==2.32.3
+
+# Data validation
+pydantic==2.9.2
